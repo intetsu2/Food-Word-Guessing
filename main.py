@@ -40,25 +40,6 @@ def random_food(f_v):
         print(f'You ended up with {point_count} points')
     print(f'You guessd {guessesd_guesses} right and {missed_guesses} wrong.')
 
-# Random Vegetables function
-"""def random_vegie():
-    point_count = 0
-    time_play = 0
-    missed_guesses = 0
-    guessesd_guesses = 0
-
-    while time_play != 6:
-        time_play += 1
-        rdv_c = rand.choice(fd.all_food['vegetables'])
-        print(f'Guess a fruit that starts with {rdv_c[:2]}')
-    
-    # vegie value input control
-    try:
-
-    except ValueError:
-        print('Invalid input')"""
-
-
 # main function
 def main():
     vegetables = fd.all_food['vegetables']
